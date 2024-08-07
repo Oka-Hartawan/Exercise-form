@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container2">
+      <div class="intro">
+        <!-- <span class="text first-text">Welcome</span>
+        <span class="text sec-text">To My Website</span> -->
+      </div>
+      <div class="container d-flex flex-column font-monospace">
+        <div class="container-sm text-light" id="container">
+          <h5 class="text-center">Tolong Di Isi</h5>
+          <form action="" name="sign-up-from" class="form">
+            <div class="form-floating mb-3">
+              <!-- First Name -->
+
+              <input
+                type="text"
+                placeholder="Masukan First Name"
+                name="first-name"
+                id="first-name"
+                class="form-control"
+              />
+              <label for="first-name">First Name label</label>
+              <span id="error-mesage-first-name" class="mesage"></span>
+            </div>
+
+            <!-- Last Name -->
+            <div class="form-floating last-name" style="width: 100%">
+              <input
+                type="text"
+                placeholder="Masukan last Name"
+                name="last-name"
+                id="last-name"
+                class="form-control"
+              />
+              <label for="Last-name">Last-name</label>
+              <span id="error-mesage-last-name" class="mesage"></span>
+            </div>
+            <div class="age form-floating" style="width: 100%">
+              <div class="age-row">
+                <div class="form-floating">
+                  <!-- Umur -->
+                  <input
+                    type="number"
+                    placeholder="Age"
+                    name="age"
+                    id="age"
+                    class="form-control"
+                    style="height: 2rem"
+                    min="1"
+                  />
+                  <label for="age">Age</label>
+                </div>
+                <button
+                  class="btn btn-primary"
+                  style="width: 50%; font-weight: 700; letter-spacing: 1px"
+                >
+                  SUMBIT
+                </button>
+              </div>
+              <span id="error-mesage-age" class="mesage"></span>
+            </div>
+            <div class="loader"></div>
+          </form>
+          <div class="value">
+            <span>hi bro</span>
+            <span>Yo</span>
+          </div>
+        </div>
+
+        <!-- VALUE -->
+      </div>
+    </div>
+    <script src="./index.js" defer></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

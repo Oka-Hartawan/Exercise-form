@@ -1,0 +1,171 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+  background-image: url(./images/kokomi.jpg);
+  backdrop-filter: blur(3px);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container-sm {
+  width: 70%;
+  height: 40rem;
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  z-index: 2;
+  box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.46);
+  -webkit-box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: 20px 20px 20px 200px rgba(0, 0, 0, 0.46);
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rem;
+  position: absolute;
+  right: 1rem;
+  z-index: 1;
+}
+
+.container2 {
+  display: flex;
+  width: auto;
+  height: auto;
+}
+
+.intro {
+  display: flex;
+  width: fit-content;
+  margin-left: 15rem;
+  margin-top: 5rem;
+  overflow: hidden;
+}
+
+/* .intro .text {
+  position: relative;
+  color: blue;
+  background-color: steelblue; */
+/* font-size: 30px;
+  font-weight: 600;
+  z-index: 3;
+} */
+
+/* .intro .text.first-text {
+  color: white;
+} */
+
+/* .text.sec-text::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(./images/kokomi.jpg);
+  backdrop-filter: blur(20px);
+  border-left: 2px solid var(url(./images/kokomi.jpg));
+  animation: animate 4s steps(12) infinite;
+  -webkit-animation: animate 4s steps(12) infinite;
+} */
+
+/* @keyframes animate { */
+/* 40%,
+  60% {
+    left: 100%;
+  }
+  100% {
+    left: 0%;
+  }
+} */
+
+.loader {
+  width: 100%;
+  margin-top: 2rem;
+  font-weight: bold;
+  font-family: monospace;
+  white-space: pre;
+  font-size: 30px;
+  line-height: 1.2em;
+  height: 1.2em;
+  overflow: hidden;
+  color: white;
+}
+.loader:before {
+  content: "Welcome...\A⌰elcome...\A⌰⍜lcome...\A⌰⍜⏃come...\A⌰⍜⏃⎅ome...\A⌰⍜⏃⎅⟟me...\A⌰⍜⏃⎅⟟⋏e...\A⌰⍜⏃⎅⟟⋏☌...\A⌰⍜⏃⎅⟟⋏☌⟒..\A⌰⍜⏃⎅⟟⋏☌⟒⏁.\A⌰⍜⏃⎅⟟⋏☌⟒⏁⋔";
+  white-space: pre;
+  display: inline-block;
+  animation: l39 2s infinite steps(11) alternate;
+}
+
+@keyframes l39 {
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.form {
+  margin-top: 3rem;
+}
+
+.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+.form input::placeholder {
+  color: white;
+}
+
+.mesage {
+  padding-left: 0.75rem;
+}
+
+.age-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn {
+  margin-left: 0.5rem;
+}
+
+.value {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem;
+  margin-top: 3rem;
+  border: 0.5px black solid;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 940px) {
+  .container {
+    width: 40%;
+  }
+}
+
+@media screen and (min-widith: 780px) {
+  .container {
+    width: 50%;
+  }
+}
+
+@media screen and (max-widith: 480px) {
+  .container {
+    width: 70%;
+  }
+}
