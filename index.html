@@ -12,76 +12,97 @@
     <link rel="stylesheet" href="./styles.css" />
     <title>Document</title>
   </head>
-  <body>
-    <div class="container2">
-      <div class="intro">
-        <!-- <span class="text first-text">Welcome</span>
-        <span class="text sec-text">To My Website</span> -->
-      </div>
-      <div class="container d-flex flex-column font-monospace">
-        <div class="container-sm text-light" id="container">
-          <h5 class="text-center">Tolong Di Isi</h5>
-          <form action="" name="sign-up-from" class="form">
-            <div class="form-floating mb-3">
-              <!-- First Name -->
-
-              <input
-                type="text"
-                placeholder="Masukan First Name"
-                name="first-name"
-                id="first-name"
-                class="form-control"
-              />
-              <label for="first-name">First Name label</label>
-              <span id="error-mesage-first-name" class="mesage"></span>
-            </div>
-
-            <!-- Last Name -->
-            <div class="form-floating last-name" style="width: 100%">
-              <input
-                type="text"
-                placeholder="Masukan last Name"
-                name="last-name"
-                id="last-name"
-                class="form-control"
-              />
-              <label for="Last-name">Last-name</label>
-              <span id="error-mesage-last-name" class="mesage"></span>
-            </div>
-            <div class="age form-floating" style="width: 100%">
-              <div class="age-row">
-                <div class="form-floating">
-                  <!-- Umur -->
-                  <input
-                    type="number"
-                    placeholder="Age"
-                    name="age"
-                    id="age"
-                    class="form-control"
-                    style="height: 2rem"
-                    min="1"
-                  />
-                  <label for="age">Age</label>
-                </div>
-                <button
-                  class="btn btn-primary"
-                  style="width: 50%; font-weight: 700; letter-spacing: 1px"
-                >
-                  SUMBIT
-                </button>
-              </div>
-              <span id="error-mesage-age" class="mesage"></span>
-            </div>
+  <body class="font-monospace">
+    <!-- <div class="container-1"> -->
+    <div class="container-2">
+      <div class="container-3 text-light" id="container-1">
+        <form action="" name="sign-up-from" class="form">
+          <div class="login">
             <div class="loader"></div>
-          </form>
-          <div class="value">
-            <span>hi bro</span>
-            <span>Yo</span>
           </div>
-        </div>
+          <label for="first-name" class="form-label">First Name label</label>
+          <div class="mb-3 w-100%">
+            <!-- First Name -->
 
-        <!-- VALUE -->
+            <input
+              type="text"
+              placeholder="Masukan First Name"
+              name="first-name"
+              id="first-name"
+              class="form-control"
+              style="height: 3rem"
+              min="1"
+            />
+            <span id="error-mesage-first-name" class="mesage"></span>
+          </div>
+
+          <!-- Last Name -->
+          <label for="last-name" class="form-label">Last-name</label>
+          <div class="mb-3 w-100%">
+            <input
+              type="text"
+              placeholder="Masukan last Name"
+              name="last-name"
+              id="last-name"
+              class="form-control"
+              style="height: 3rem"
+              min="1"
+            />
+            <span id="error-mesage-last-name" class="mesage"></span>
+          </div>
+          <div class="row-age">
+            <label for="age" class="label">Age</label>
+            <div class="mb-3 w-100%">
+              <!-- Umur -->
+              <input
+                type="number"
+                placeholder="Age"
+                name="age"
+                id="age"
+                class="form-control"
+                style="height: 3rem"
+                min="1"
+              />
+            </div>
+            <button
+              class="btn btn-primary"
+              style="width: 100%; font-weight: 600; letter-spacing: 1px"
+              id="buton-1"
+            >
+              SUMBIT
+            </button>
+          </div>
+          <span id="error-mesage-age" class="mesages"></span>
+        </form>
       </div>
+      <div class="frame-value d-none" id="container-2">
+        <div class="User-Value">
+          <div class="user-date"></div>
+        </div>
+        <div class="value">
+          <span id="helo-mesage"></span>
+          <span id="value-1">Nama Lengkap:</span>
+          <span id="value-2">Umur:</span>
+          <button
+            class="btn btn-primary"
+            style="font-weight: 600; letter-spacing: 1px"
+            id="buton-2"
+          >
+            SUMBIT
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="video-wrapper">
+      <div class="video-background">
+        <video autoplay muted loop>
+          <source
+            src="./video/mylivewallpapers.com-Yae-Sakura-Petals-Honkai-Impact.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+      <!-- </div> -->
     </div>
     <script src="./index.js" defer></script>
     <script
