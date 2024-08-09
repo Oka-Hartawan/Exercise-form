@@ -278,7 +278,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 7rem 2rem 3rem 6rem;
+  padding: 4.5rem 2rem 3rem 6rem;
 }
 
 .user-date {
@@ -396,7 +396,7 @@ body {
 .value span {
   font-weight: bold;
   font-size: 20px;
-  padding-top: 3rem;
+  padding-top: 2.5rem;
   padding-left: 3.5rem;
 }
 
