@@ -87,7 +87,7 @@ function userIdentity() {
 function resetForm() {
   buton2.addEventListener("click", (event) => {
     event.preventDefault();
-    alert("Terimakasih Telah Login");
+    alert("Terima kasih Telah Login");
     location.reload();
   });
 }

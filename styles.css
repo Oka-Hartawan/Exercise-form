@@ -252,6 +252,9 @@ body {
 
 .btn {
   margin-left: 2rem;
+  display: flex;
+  margin-top: 0.3rem;
+  height: fit-content;
 }
 
 .frame-value {
@@ -275,7 +278,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem 2rem 5rem 6rem;
+  padding: 7rem 2rem 3rem 6rem;
 }
 
 .user-date {
@@ -394,11 +397,12 @@ body {
   font-weight: bold;
   font-size: 20px;
   padding-top: 3rem;
-  padding-left: 3rem;
+  padding-left: 3.5rem;
 }
 
 .value button {
   margin-top: 3rem;
+  margin-left: 3.5rem;
   width: fit-content;
 }
 
@@ -417,5 +421,8 @@ body {
 @media screen and (min-widith: 480px) {
   .container-3 {
     width: 50%;
+  }
+  .value span {
+    padding-right: 3rem;
   }
 }
